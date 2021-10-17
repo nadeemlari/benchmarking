@@ -1,3 +1,3 @@
-# Benchmarking # code
+# Benchmarking C# code
 A benchmark is a test that you run to measure to how fast your code is  
 
