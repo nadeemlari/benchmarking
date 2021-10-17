@@ -24,5 +24,16 @@ namespace Example
             var index = dateTimmeFromspan.IndexOf('-');
             return int.Parse(dateTimmeFromspan.Slice(0, index));
         }
+        public int GetYearFromDateTimeFromSpanManualConversion(ReadOnlySpan<char> dateTimmeFromspan)
+        {
+            var index = dateTimmeFromspan.IndexOf('-');
+            var span = dateTimmeFromspan.Slice(0, index);
+            int year = 0;
+            for (int i = 0; i < span.Length; i++)
+            {
+                year = year * 10 - (span[i] - '0');
+            }
+            return year;
+        }
     }
 }

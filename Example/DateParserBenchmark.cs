@@ -32,6 +32,11 @@ namespace Example
         {
             Parser.GetYearFromDateTimeFromSpan(DateTimeAsString);
         }
+        [Benchmark]
+        public void GetYearFromDateTimeFromManualConversion()
+        {
+            Parser.GetYearFromDateTimeFromSpanManualConversion(DateTimeAsString);
+        }
 
     }
 }
