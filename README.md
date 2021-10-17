@@ -5,6 +5,8 @@ A benchmark is a test that you run to measure to how fast your code is
 
 ![image-20211017145706870](img1.png)
 
-**Final  output**
+**Final  output** 
 
 ![](img2.gif)
+
+Performance optimization  from 234 ns to 20 ns
